@@ -1,7 +1,7 @@
 ---
 name: "Microsoft TTS"
 description: "Text to speech using Microsoft Azure"
-version: "1.0.8"
+version: "1.0.9"
 slug: "wyoming_microsoft_tts"
 init: false
 arch:
@@ -20,4 +20,4 @@ schema:
   debug_logging: bool
   update_voices: bool
 tmpfs: true
-image: "ghcr.io/hugobloem/{arch}-wyoming-microsoft-tts"
+image: "ghcr.io/sergio-u/{arch}-wyoming-microsoft-tts"
