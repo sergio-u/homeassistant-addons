@@ -1,7 +1,7 @@
 ---
 name: "Microsoft TTS"
 description: "Text to speech using Microsoft Azure"
-version: "1.0.12"
+version: "1.0.13"
 slug: "wyoming_microsoft_tts_stream"
 init: false
 arch:
@@ -17,6 +17,7 @@ options:
 schema:
   subscription_key: str
   service_region: str
+  language: str
   debug_logging: bool
   update_voices: bool
 tmpfs: true

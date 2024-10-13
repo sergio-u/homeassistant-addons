@@ -16,5 +16,6 @@ exec python3 -m wyoming_microsoft_tts \
     --uri "tcp://0.0.0.0:10200" \
     --subscription-key "$(bashio::config 'subscription_key')" \
     --service-region "$(bashio::config 'service_region')" \
+    --language "$(bashio::config 'language')" \
     --download-dir /data \
     ${flags[@]}

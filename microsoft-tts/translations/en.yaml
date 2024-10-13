@@ -8,6 +8,10 @@ configuration:
     name: Service Region
     description: >-
       The region you set up you Speech Service instance in (e.g. uksouth).
+  language:
+    name: Language
+    description: >-
+      The language key for the language you want to use (e.g. en-GB).
   update_voices:
     name: Update voices
     description: >-
